@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img/1660095847_32-sportishka-com-p-sport-estetika-sport-krasivo-foto-43.jpg")
+
+}
+
+.header {
+    display: block;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+    font-family: "Roboto";
+
+}
+
+span.X {
+    display: inline-block;
+    color: #96ff00;
+
+}
+
+.logo {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    background-image: none;
+    color: white;
+
+}
+
+header:before {
+    display: block;
+    background: #3333;
+    content:'';
+    height: 161px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    background-color:#333;
+}
