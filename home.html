@@ -8,49 +8,58 @@
     <title>XFITCLUB</title>
 </head>
 <body>
-    <section class="header">
-        <container>
-            <header class="header">
-            <p class="logo"><span class="X">X</span>FITCLUB</p>
-            <div class="menu">
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <il class="nav-item"><a href="home.html" class="button">Главная</a></il>
-                        <il class="nav-item"><a  href="about_us.html" class="button">О нас</a></il>
-                        <il class="nav-item"><a  href="contact.html" class="button">Контакты</a></il>
-                        <il class="nav-item"><a  href="gallery.html" class="button">Галерея</a></il>
-                    </ul>
-                </nav>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner-wrapper">
+                <div class="wrapper-logo">
+                    <div class="logo"><span class="X">X</span>FITCLUB</div>
+                </div>
+                <div class="menu">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="home.html" class="button">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="about_us.html" class="button">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="contact.html" class="button">Контакты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="gallery.html" class="button">Галерея</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            </header>   
-        </container>
-    </section>
-        <section class="main">
-        <main class="main">
-                <container class="registration">
-                    <h1 class="harder">TRY HARDER</h1> 
-                    <h1 class="more">PUSH MORE</h1>
-                    <div class="input">
-                        <label for="name" class="name">Имя</label>
-                        <input type="text" class="name_name">
-                    </div>
-                    <div class="input">
-                        <label for="email" class="email">Email</label>
-                        <input type="text" class="name_name">
-                    </div>
-                    <div class="input">
-                        <label for="message" class="message">Сообщение</label>
-                        <input type="text" class="name_name">
-                    </div>
-                    <button class="button">Отправить заявку</button>                    
-                </container>
-            </section>
-        </main>
-        <section class="footer">
-            <footer class="footer">
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <form class="registration">
+                <p class="harder">TRY HARDER</p>
+                <p class="more">PUSH MORE</p>
+                <label class="name input">
+                    Имя
+                    <input type="text" class="input">
+                </label>
+                <label class="email">
+                    Email
+                    <input type="text" class="name_name">
+                </label>
+                <label class="message">
+                    Сообщение
+                    <input type="text" class="name_name">
+                </label>
+                <button class="button">Отправить заявку</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
 
-            </footer>
-        </section>
-    
+        </div>
+    </footer>
 </body>
 </html>
