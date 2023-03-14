@@ -24,13 +24,20 @@ ul {
     margin: 0 auto;
 }
 
-.header {
-    display: flex;
-    align-items: center;
+.wrapper-gray {
     background-color: rgb(51, 51, 51);
     margin: 0 auto;
     width: 100%;
     color: white;
+}
+
+.footer {
+    height: 150px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
     height: 121px;
 }
 
